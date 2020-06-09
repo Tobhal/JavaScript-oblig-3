@@ -2,8 +2,6 @@
 
 Introduction
 
-Please read the page called Mandatory Assignments - Information before continuing this assignment.
-
 The goal of the assignment is to test whether you have advanced your skills so that we can proceed with more complex Javascript programming assignments. This includes:
 
 making and updating a plan for a computer program 
