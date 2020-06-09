@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'> 
+    <title> Programerign - oblig 3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='script-2.js'></script>
+    <script src='script.js'></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+    <img src="baguette.png" id="baguette" alt="">
+    <div>
+        <label for="file">Choose file to upload </label>
+        <input type="file" id="file" name="file" accept="text/csv">
+
+        <br>
+
+        <select id="selectPlace">
+            <option disabled selected>Location</option>
+            <option value="All">All</option>
+        </select>
+
+        <select id="selectType">
+            <option disabled selected>Type</option>
+            <option value="All">All</option>
+        </select>
+
+        <table id="myTable">
+            <tr>
+                <th>Index</th>
+                <th>Date</th>
+                <th>Transaction location</th>
+                <th>Transaction type</th>
+                <th>Spendt</th>
+            </tr>
+        </table>
+        <br>
+
+    </div>
+    
+    <div>
+        <canvas id="canvas" height="300" width="500"></canvas> <br>
+        <form>
+            <input type="radio" name="graf" id="locationRadio" value="location" checked> Location
+            <input type="radio" name="graf" id="typeRadio" value="type"> Type
+            <select id="grafType">
+                <option value="avrage" selected>Avrage</option>
+                <option value="total">Total</option>
+                <option value="minimum">Minimum</option>
+                <option value="maximum">Max</option>
+            </select>
+        </form>
+        <p id="stats"></p>
+    </div>
+</body>
+</html>

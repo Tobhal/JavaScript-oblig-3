@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+
+    background-image: url(loafturtle.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 65px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+div {
+    margin: 20px;
+}
+
+th {
+    padding: 0 10px;
+}
+
+table, td, th {
+    border: 1px solid black;
+    margin: 10px 5px 5px 5px;
+    padding: 5px;
+}
+
+tr:nth-child(2n+3) {
+    background-color: #ccc;
+}
+
+canvas {
+    border: 1px solid black
+}
+
+#baguette {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 2;
+    visibility: hidden;
+    transform: rotate(0deg);
+}
